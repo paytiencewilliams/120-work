@@ -1,3 +1,3 @@
 function setup(){
-    text("I love you!", 0, 10);
+    ellipse(20, 20, 30, 30);
 }
