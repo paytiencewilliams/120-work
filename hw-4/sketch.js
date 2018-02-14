@@ -21,6 +21,13 @@ function draw() {
     translate( -150, 20 )
     rect( 0, 0, 300, 400, 900 )
 
+    // **TAIL**
+    push()
+    //tail code goes here
+
+    pop()
+    // **END TAIL**
+
     pop();
     // **END BODY**
 
@@ -28,6 +35,11 @@ function draw() {
     // ** HEAD **********************************
     push();
     ellipse( 0, -20, 175, 175 )
+
+    push()
+    fill( 'rgba( 248, 172, 233, 0.66)')
+    translate( 0, -20)
+    ellipse( 0, 0, 175, 175)
 
     // **MOUTH**
     push();
@@ -43,16 +55,23 @@ function draw() {
     pop();
     // **END EYES**
 
+    // **EARS**
+    push()
+    // ears code goes here
+
+    pop()
+    // **END EARS**
+
     pop();
     // **END HEAD**
 
 
-    // ** ARMS **********************************
+    // ** LEGS **********************************
     push();
-    // arms code goes here
+    // legs code goes here
 
     pop();
-    // **END ARMS**
+    // **END LEGS**
 
 
     // ** END CHARACTER SANDBOX *******************
