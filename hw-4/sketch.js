@@ -109,7 +109,7 @@ function draw() {
     // **END LEGS**
 
 
-    // ** END CHARACTER SANDBOX *******************
+    // ** END CHARACTER SANDBOX ******************
     pop();
 
 }
