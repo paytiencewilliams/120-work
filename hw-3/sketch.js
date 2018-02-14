@@ -9,5 +9,5 @@ function setup(){
 
 function draw() {
 
-    text( "Hello World!", 20, 30 );
+    text( "I love you!", 20, 30 );
   }
