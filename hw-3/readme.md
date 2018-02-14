@@ -1,3 +1,22 @@
-# Empty p5 sketch.
+MARKDOWN
+# Paytience Williams
 
-Please replace contents of this file with appropriate readme information after finishing your p5 sketch.
+# Howmework 3 Response
+
+## The Work I Did
+
+
+
+## Steps Taken to Complete the Assignment
+
+
+
+## Struggles
+
+
+
+## What I Learned
+
+
+
+## How I Helped Other Classmates
