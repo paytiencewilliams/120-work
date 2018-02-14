@@ -6,3 +6,8 @@ function setup(){
   // color the background 'pink'
   background( 'pink' );
 }
+
+function draw() {
+
+    text( "Hello World!", 20, 30 );
+  }
