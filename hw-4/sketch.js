@@ -21,11 +21,18 @@ function draw() {
     translate( -150, 20 )
     rect( 0, 0, 300, 400, 900 )
 
+    // **BELLY**
+    push();
+    // belly code goes here
+
+    pop();
+    // **END BELLY**
+
     // **TAIL**
-    push()
+    push();
     //tail code goes here
 
-    pop()
+    pop();
     // **END TAIL**
 
     pop();
@@ -48,19 +55,47 @@ function draw() {
     pop();
     // **END MOUTH**
 
-    // **EYES**
+    // **NOSE**
     push();
-    // eye code goes here
+    // nose code goes here
 
     pop();
-    // **END EYES**
+    // **END NOSE**
 
-    // **EARS**
-    push()
-    // ears code goes here
+    // **WHISKERS**
+    push();
+    // whiskers code goes here
 
-    pop()
-    // **END EARS**
+    pop();
+    // **END WHISKERS**
+
+    // **LEFT EYE**
+    push();
+    // left eye code goes here
+
+    pop();
+    // **END LEFT EYE**
+
+    // **RIGHT EYE**
+    push();
+    // right eye code goes here
+
+    pop();
+    // **END RIGHT EYE**
+
+    // ** LEFT EAR**
+    push();
+    // left ears code goes here
+
+    pop();
+    // **END LEFT EAR**
+
+    // **RIGHT EAR**
+    push();
+    // right ears code goes here
+
+    pop();
+    // **END RIGHT EAR**
 
     pop();
     // **END HEAD**
