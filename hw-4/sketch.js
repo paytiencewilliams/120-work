@@ -1,42 +1,33 @@
 function setup() {
-    // create a canvas to draw my portrait on
-    createCanvas( 600, 900 );
+    createCanvas( 600, 800 );
 }
 
 function draw() {
-    // set the background color
-    background( 'rgb(78, 249, 135)' );
+    background( 'rgb(212, 212, 212)' );
 
     // *****************************************************
     // create a sandbox for the entire character
     push();
 
     // move the entire grid for this character to the center of the canvas
-    translate( 300, 450 );
-
+    translate( 300, 400 );
 
     // ** BODY **********************************
     push();
-    // body code goes here
+    rect( -150, 20, 300, 400, 900 );
+
+    push()
+    fill( 'rgba( 248, 172, 233, 0.66 )')
+    translate( -150, 20 )
+    rect( 0, 0, 300, 400, 900 )
 
     pop();
     // **END BODY**
 
 
-    // ** ARMS **********************************
-    push();
-    // arms code goes here
-
-    pop();
-    // **END ARMS**
-
-
     // ** HEAD **********************************
     push();
-
-    // head code goes here
-    // make skull first
-
+    ellipse( 0, -20, 175, 175 )
 
     // **MOUTH**
     push();
@@ -54,6 +45,14 @@ function draw() {
 
     pop();
     // **END HEAD**
+
+
+    // ** ARMS **********************************
+    push();
+    // arms code goes here
+
+    pop();
+    // **END ARMS**
 
 
     // ** END CHARACTER SANDBOX *******************
