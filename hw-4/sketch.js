@@ -12,28 +12,35 @@ function draw() {
     // move the entire grid for this character to the center of the canvas
     translate( 300, 400 );
 
+    // **TAIL**
+    push();
+    stroke('rgba( 248, 172, 233, 1.0 )');
+    strokeWeight(50);
+    line( 15, 400, 250, 200 );
+
+    pop();
+    // **END TAIL**
+
     // ** BODY **********************************
     push();
     rect( -150, 20, 300, 400, 900 );
 
     push()
-    fill( 'rgba( 248, 172, 233, 0.66 )')
+    fill( 'rgba( 248, 172, 233, 1.0 )')
     translate( -150, 20 )
     rect( 0, 0, 300, 400, 900 )
 
+    pop();
+
     // **BELLY**
     push();
-    // belly code goes here
+    rect( -100, 75, 200, 350, 900 );
+
+    push()
+    fill('rgba( 225, 225, 225, 0.66 )')
 
     pop();
     // **END BELLY**
-
-    // **TAIL**
-    push();
-    //tail code goes here
-
-    pop();
-    // **END TAIL**
 
     pop();
     // **END BODY**
@@ -44,13 +51,21 @@ function draw() {
     ellipse( 0, -20, 175, 175 )
 
     push()
-    fill( 'rgba( 248, 172, 233, 0.66)')
+    fill( 'rgba( 248, 172, 233, 1.0 )')
     translate( 0, -20)
     ellipse( 0, 0, 175, 175)
 
     // **MOUTH**
     push();
-    // mouth code goes here
+    fill('rgba( 225, 225, 225, 0.66 )')
+    rotate( radians(180))
+    arc( 25, 0, 25, 25, 80, PI );
+
+    push()
+    fill('rgba( 225, 225, 225, 0.66 )')
+    rotate( radians(99))
+    translate( -20, 20 )
+    arc( 25, 0, 25, 25, 80, PI );
 
     pop();
     // **END MOUTH**
