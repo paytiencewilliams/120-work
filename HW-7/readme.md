@@ -10,11 +10,7 @@ Your Name, Your Section Number
 <!--
 --This is a Comment Block--
 
-Please describe what the original code is doing.
-
-Why is it working the way it is?
-What does each line do?
-How can you make the ball change direction?
+The Original Code
 
 -->
 
