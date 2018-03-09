@@ -1,9 +1,9 @@
 
 
 let ball = {};
-ball.width = 40;
-ball.x = 10;
-ball.y = 10;
+ball.width = 10;
+ball.x = 5;
+ball.y = 5;
 ball.delta_x = 1;
 ball.delta_y = 1;
 ball.scale_x = 1;
@@ -11,7 +11,7 @@ ball.scale_y = 1;
 
 function setup() {
     createCanvas(windowWidth, 400);
-    background(255);
+    background('violet')
 }
 
 
@@ -29,7 +29,7 @@ function draw() {
         ball.delta_y = -1 * ball.delta_y;
     }
 
-    fill(255);
+    fill('cyan');
     ellipse(ball.x, ball.y, ball.width, ball.width);
 }
 
