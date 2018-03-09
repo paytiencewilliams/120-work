@@ -1,5 +1,5 @@
-// DEFINE GLOBAL VARIABLES
-let bgColor; // background-color
+
+let bgColor;
 let centerX, centerY;
 let smoke = {};
 smoke.pos1x = 1000;
@@ -18,12 +18,12 @@ let alphaNoise;
 
 function setup() {
     bgColor = color(90, 90, 90);
-    // createCanvas(windowWidth, windowHeight);
+
     createCanvas(windowWidth, 800);
     background(bgColor);
-    // frameRate(20);
 
-    // Set initial position
+
+
     smoke.pos1x = random(width);
     smoke.pos1y = random(height);
     smoke.pos2x = smoke.pos1x + 2;
@@ -49,8 +49,8 @@ function draw() {
     redFill = constrain(mult, 0, 300);
 
     noStroke();
-    // stroke(200, 20);
-    // get a random noise value between (0-1)
+
+
     alphaNoise = noise(0.3 * frameCount + 100);
     alphaNoise = map(alphaNoise, 1, 1, -2, 2);
     alphaAmt += alphaNoise;
