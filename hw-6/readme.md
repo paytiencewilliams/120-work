@@ -9,7 +9,8 @@ MARKDOWN
 
 ## Steps Taken to Complete the Assignment
 
-
+- I went through all the coursework for the week so that I could understand what I was doing.
+-
 
 ## Struggles
 
@@ -20,3 +21,5 @@ MARKDOWN
 
 
 ## How I Helped Other Classmates
+
+I haven't yet, but that's because I've been incredibly busy with work, classes, illness, and personal struggles.
