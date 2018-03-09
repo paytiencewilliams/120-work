@@ -1,4 +1,4 @@
-Your Name, Your Section Number
+Paytience Williams, hw-7 Response
 
 [Live Sketch Link](Your Live Link)
 
@@ -7,16 +7,9 @@ Your Name, Your Section Number
 
 ## Description of What the Original Code is Doing
 
-<!--
---This is a Comment Block--
-
-The Original Code
-
--->
+The original code is...
 
 
 ## How did you alter the sketch?
 
-<!--
-Please describe how and why you changed the sketch?
--->
+I changed the sketch to... because...
